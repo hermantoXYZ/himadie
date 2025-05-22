@@ -47,7 +47,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#980201] text-white pt-16 pb-8">
+    <footer className="bg-[#000] text-white pt-16 pb-8">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
           <div className="lg:col-span-2">
@@ -66,7 +66,7 @@ const Footer = () => {
                   key={index}
                   href={link.href}
                   aria-label={link.label}
-                  className="w-10 h-10 text-black rounded-full bg-white flex items-center justify-center hover:bg-red-700 hover:text-white transition-colors"
+                  className="w-10 h-10 text-black rounded-full bg-white flex items-center justify-center hover:bg-gray-700 hover:text-white transition-colors"
                 >
                   <link.icon size={18} />
                 </a>
