@@ -11,7 +11,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Research Institute - Advancing Knowledge Through Research";
+    document.title = "HimaDie | Himpunan Mahasiswa Doktor Ilmu Ekonomi";
   }, []);
 
   return (
