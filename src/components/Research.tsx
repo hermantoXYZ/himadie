@@ -40,7 +40,7 @@ const Research = () => {
     {
       id: 1,
       title: 'Mubes HimaDie Unhas',
-      image: '/public/artikel1.jpeg',
+      image: '/artikel1.jpeg',
       category: 'Berita HimaDie Unhas',
       description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes)',
       featured: true
