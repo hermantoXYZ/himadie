@@ -81,25 +81,24 @@ const Contact = () => {
       icon: MapPin,
       title: 'Our Location',
       details: [
-        '123 Research Avenue',
-        'Academic District',
-        'Knowledge City, KC 10001'
+        'Jl. Perintis Kemerdekaan Km.10',
+        'Tamalanrea, Makassar',
+        'Sulawesi Selatan, Indonesia'
       ]
     },
     {
       icon: Phone,
       title: 'Call Us',
       details: [
-        '+1 (555) 123-4567',
-        '+1 (555) 987-6543'
+        '+62 812 3456 7890',
+        '+62 811 2345 6789'
       ]
     },
     {
       icon: Mail,
       title: 'Email Us',
       details: [
-        'info@researchinstitute.edu',
-        'admissions@researchinstitute.edu'
+        'himadieunhas@gmail.com'
       ]
     }
   ];
