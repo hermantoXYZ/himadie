@@ -7,33 +7,33 @@ const Footer = () => {
   
   const footerLinks = [
     {
-      title: 'Institution',
+      title: 'Tentang Kami',
       links: [
-        { label: 'About Us', href: '#about' },
-        { label: 'Our History', href: '#' },
-        { label: 'Leadership', href: '#' },
-        { label: 'Careers', href: '#' },
-        { label: 'News', href: '#' },
+        { label: 'Profil', href: '#about' },
+        { label: 'Sejarah', href: '#' },
+        { label: 'Pengurus', href: '#' },
+        { label: 'Visi & Misi', href: '#' },
+        { label: 'Berita', href: '#' },
       ]
     },
     {
-      title: 'Research',
+      title: 'Program',
       links: [
-        { label: 'Research Areas', href: '#research' },
-        { label: 'Publications', href: '#' },
-        { label: 'Projects', href: '#' },
-        { label: 'Collaborations', href: '#' },
-        { label: 'Grants', href: '#' },
+        { label: 'Riset', href: '#research' },
+        { label: 'Publikasi', href: '#' },
+        { label: 'Seminar', href: '#' },
+        { label: 'Kolaborasi', href: '#' },
+        { label: 'Pengabdian', href: '#' },
       ]
     },
     {
-      title: 'Resources',
+      title: 'Sumber Daya',
       links: [
-        { label: 'Library', href: '#' },
-        { label: 'Equipment', href: '#' },
-        { label: 'Datasets', href: '#' },
-        { label: 'Workshops', href: '#' },
-        { label: 'Events', href: '#' },
+        { label: 'Perpustakaan', href: '#' },
+        { label: 'Repository', href: '#' },
+        { label: 'Jurnal', href: '#' },
+        { label: 'Workshop', href: '#' },
+        { label: 'Agenda', href: '#' },
       ]
     }
   ];
@@ -41,9 +41,9 @@ const Footer = () => {
   const socialLinks = [
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Instagram, href: '#', label: 'Instagram' },
     { icon: Youtube, href: '#', label: 'YouTube' },
+    { icon: Linkedin, href: '#', label: 'LinkedIn' }
   ];
 
   return (
@@ -53,12 +53,11 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <h3 className="text-2xl font-bold mb-1">Hima<span className="text-gray-300">Die</span></h3>
-              <p className="text-gray-100 text-sm">Advancing Knowledge Through Research</p>
+              <p className="text-gray-100 text-sm">Himpunan Mahasiswa Doktor Ilmu Ekonomi</p>
             </div>
             <p className="text-blue-100 mb-6 max-w-md">
-              Our institution is dedicated to pushing the boundaries of knowledge through 
-              innovative research and interdisciplinary collaboration, addressing the most 
-              pressing challenges facing our world today.
+              Wadah kolaborasi, inovasi, dan pengembangan keilmuan bagi mahasiswa doktor Ilmu Ekonomi 
+              Universitas Hasanuddin.
             </p>
             <div className="flex space-x-3">
               {socialLinks.map((link, index) => (
@@ -96,12 +95,12 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-gray-300/40 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-200 text-sm mb-4 md:mb-0">
-            © {currentYear} HermantoXYZ. All rights reserved.
+            © {currentYear} HimaDie Unhas. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-200">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Use</a>
-            <a href="#" className="hover:text-white transition-colors">Accessibility</a>
+            <a href="#" className="hover:text-white transition-colors">Kebijakan Privasi</a>
+            <a href="#" className="hover:text-white transition-colors">Syarat & Ketentuan</a>
+            <a href="#" className="hover:text-white transition-colors">Aksesibilitas</a>
           </div>
         </div>
       </div>
