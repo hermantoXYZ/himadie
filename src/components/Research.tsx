@@ -39,10 +39,10 @@ const Research = () => {
   const projects = [
     {
       id: 1,
-      title: 'Advanced Machine Learning Applications',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80',
-      category: 'Artificial Intelligence',
-      description: 'Developing cutting-edge machine learning algorithms to address complex challenges across multiple domains.',
+      title: 'Mubes HimaDie Unhas',
+      image: '/public/artikel1.jpeg',
+      category: 'Berita HimaDie Unhas',
+      description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes)',
       featured: true
     },
     {
@@ -61,38 +61,6 @@ const Research = () => {
       description: 'Investigating brain development and neural pathways to better understand cognitive processes.',
       featured: false
     },
-    {
-      id: 4,
-      title: 'Quantum Computing Advancements',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80',
-      category: 'Quantum Physics',
-      description: 'Exploring quantum algorithms and computing architectures to solve previously intractable problems.',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Urban Planning Innovations',
-      image: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&q=80',
-      category: 'Urban Studies',
-      description: 'Developing new approaches to urban design that prioritize sustainability and community wellbeing.',
-      featured: false
-    },
-    {
-      id: 6,
-      title: 'Biomedical Imaging Techniques',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80',
-      category: 'Medical Research',
-      description: 'Creating advanced imaging technologies to improve medical diagnostics and treatment planning.',
-      featured: false
-    },
-    {
-      id: 7,
-      title: 'Climate Change Mitigation Strategies',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80',
-      category: 'Environmental Science',
-      description: 'Developing innovative strategies to mitigate and adapt to climate change.',
-      featured: false
-    }
   ];
 
   return (
@@ -144,7 +112,7 @@ const Research = () => {
                   asChild
                 >
                   <Link to={`/research/${project.id}`}>
-                    Learn More <ExternalLink className="ml-1 h-4 w-4" />
+                    Read More <ExternalLink className="ml-1  text-left h-4 w-4" />
                   </Link>
                 </Button>
               </div>

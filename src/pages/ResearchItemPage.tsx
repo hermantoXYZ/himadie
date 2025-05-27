@@ -11,31 +11,24 @@ import Footer from '@/components/Footer';
 const researchProjects = [
   {
     id: 1,
-    title: 'Advanced Machine Learning Applications',
-    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80',
-    category: 'Artificial Intelligence',
-    description: 'Developing cutting-edge machine learning algorithms to address complex challenges across multiple domains.',
+    title: 'Mubes HimaDie Unhas',
+    image: '/public/artikel1.jpeg',
+    category: 'Berita HimaDie',
+    description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes). .',
     featured: true,
-    author: 'Dr. Sarah Johnson',
+    author: 'Admin',
     date: 'May 15, 2025',
     content: `
-      <h2>Project Overview</h2>
-      <p>This research project focuses on developing advanced machine learning algorithms that can be applied across multiple domains including healthcare, finance, and environmental sciences. Our team is exploring novel approaches to deep learning, reinforcement learning, and transfer learning to create more efficient and effective AI systems.</p>
+      <p>Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes). Kegiatan itu dilaksanakan pada Rabu (7/5/2025) di Ruangan Pascasarjana FEB Unhas.</p><br>
+       <p>Mubes tersebut dihadiri oleh Ketua Program Studi Doktor Ilmu Ekonomi FEB-UNHAS, Dr. Madris, DPS., S.E., M.Si.</p><br>
+       <p>Dalam Mubes tersebut, Mahasiswa S3 angkatan 2024 periode I Syamsu Alam terpilih secara aklamasi oleh pengurus dan mahasiwa Doktor Ilmu Ekonomi yang hadir. Ketua terpilih berharap dapat membangun sinergi yang solid dengan Civitas Kampus dan Alumni S3 Ilmu Ekonomi FEB Unhas.</p><br>
+       <img src="/artikel2.jpeg" alt="Mubes HimaDie Unhas 2024-2025" class="w-full h-auto rounded-lg my-2" />
+          <img src="/artikel1.jpeg" alt="Mubes HimaDie Unhas 2024-2025" class="w-full h-auto rounded-lg my-2" />
+       
       
-      <h2>Key Research Areas</h2>
-      <ul>
-        <li>Neural network architecture optimization for complex pattern recognition</li>
-        <li>Explainable AI methods to make machine learning decisions more transparent</li>
-        <li>Transfer learning techniques that allow models to adapt quickly to new domains</li>
-        <li>Edge computing implementation of sophisticated ML algorithms</li>
-      </ul>
+
+
       
-      <h2>Potential Applications</h2>
-      <p>The applications of this research are far-reaching, including:</p>
-      <p>In healthcare, our algorithms can help predict disease outbreaks, personalize treatment plans, and enhance medical imaging analysis. Financial institutions can benefit from improved fraud detection and risk assessment models. Environmental scientists can use our techniques to better predict climate patterns and natural disasters.</p>
-      
-      <h2>Current Progress</h2>
-      <p>We have successfully developed a novel neural network architecture that outperforms existing models in natural language processing tasks by 15%. Our work on explainable AI has produced methods that make complex model decisions more interpretable to non-technical stakeholders without sacrificing accuracy.</p>
     `,
   },
   {
@@ -295,7 +288,7 @@ const ResearchItemPage = () => {
               </Card>
 
               <div className="mt-8">
-                <h3 className="text-lg font-semibold mb-4">Related Research</h3>
+  
                 <div className="space-y-4">
                   {researchProjects
                     .filter(p => p.id !== project.id && p.category === project.category)
