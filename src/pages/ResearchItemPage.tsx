@@ -33,30 +33,31 @@ const researchProjects = [
   },
   {
     id: 2,
-    title: 'Sustainable Energy Solutions',
-    image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80',
-    category: 'Environmental Science',
+    title: 'Pengurus Himadie FEB Unhas Resmi Dilantik',
+    image: 'https://asset-2.tstatic.net/makassar/foto/bank/images/dekan-fakultas-ekonomi-dan-bisnis-feb-unhas-prof-dr-abd-rahman-kadir.jpg',
+    category: 'Berita Himadie',
     description: 'Researching renewable energy technologies that reduce environmental impact and increase energy efficiency.',
     featured: true,
-    author: 'Prof. Michael Chen',
-    date: 'April 3, 2025',
+    author: 'Admin',
+    date: '28 April , 2020',
     content: `
-      <h2>Project Overview</h2>
-      <p>This project investigates cutting-edge renewable energy technologies that can significantly reduce environmental impact while increasing overall energy efficiency. Our interdisciplinary team is developing solutions that can be implemented at both industrial and residential scales.</p>
-      
-      <h2>Research Focus</h2>
-      <ul>
-        <li>Advanced photovoltaic materials with higher conversion efficiency</li>
-        <li>Next-generation energy storage systems for renewable sources</li>
-        <li>Smart grid technologies that optimize energy distribution</li>
-        <li>Energy-efficient building materials and designs</li>
-      </ul>
-      
-      <h2>Key Innovations</h2>
-      <p>Our team has developed a novel composite material that increases solar panel efficiency by 22% compared to current market standards. We've also created an AI-driven energy management system that reduces wastage by optimizing consumption patterns in real-time.</p>
-      
-      <h2>Implementation Strategy</h2>
-      <p>We are working closely with industry partners to transition these technologies from the laboratory to real-world applications. Pilot programs are currently underway in several communities, showing promising early results with energy consumption reductions of up to 35%.</p>
+  <p>Dekan Fakultas Ekonomi dan Bisnis (FEB) Unhas, Prof Dr Abd Rahman Kadir, SE, MSi melantik Pengurus Himpunan Mahasiswa Doktor Ilmu Ekonomi (Himadie) FEB-Unhas, di Hotel MaxOne Makassar Jumat (28/02/2020).</p></br>
+  <p>Ketua Program Studi Dr Anas Iswanto Anwar Makatutu melaporkan bahwa organisasi HIMADIE FEB-Unhas ini sebagai wadah mahasiswa.</p></br>
+       <img src="https://asset-2.tstatic.net/makassar/foto/bank/images/dekan-fakultas-ekonomi-dan-bisnis-feb-unhas-prof-dr-abd-rahman-kadir.jpg" alt="Mubes HimaDie Unhas 2024-2025" class="w-full h-auto rounded-lg my-2" />
+  <p>"Tujuan untuk menampung seluruh aspirasi mahasiswa tentang informasi yang berkaitan dengan akademik," katanya dalam rilis yang diterima Tribun Timur.</p></br>
+  <p>Pengurus yang dilantik adalah hasil dari Musyawarah Anggota II yang telah dilaksanakan pada 6 Februari 2020 di Gedung Pascasarjana FEB-Unhas dengan susunan pengurus terdiri dari:</p></br>
+  <ul>
+    <li>Ketua: Mustakim Muchlis</li>
+    <li>Wakil Ketua: Wadzhiba Nas</li>
+    <li>Sekretaris: Abdul Rahman</li>
+    <li>Bendahara: Andry</li>
+    <li>Wakil Bendahara: Sri Prilmayanti</li>
+  </ul></br>
+  <p>Kepengurusan ini dilengkapi beberapa bidang, yakni Bidang Umum, Bidang Keilmuan, dan Bidang Humas.</p>
+  <p>Prof Dr Abd Rahman Kadir, SE, MSi mengatakan pembentukan himpunan ini menjadi penting untuk meningkatkan kepedulian mahasiswa terhadap kemajuan program studi.</p></br>
+  <p>"Juga membantu program studi dalam memperbaiki mutu akademik, sehingga 'Check dan Balances' berjalan dengan baik," katanya.</p></br>
+  <p>Setelah dilakukan pelantikan, dilanjutkan dengan Rapat Kerja Pengurus Himadie FEB-Unhas Periode 2020–2021 untuk menyusun program kerja yang direncanakan guna dilaksanakan selama masa periode kepengurusan himpunan ini.</p>
+
     `,
   },
   {

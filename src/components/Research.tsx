@@ -47,18 +47,10 @@ const Research = () => {
     },
     {
       id: 2,
-      title: 'Sustainable Energy Solutions',
-      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80',
-      category: 'Environmental Science',
-      description: 'Researching renewable energy technologies that reduce environmental impact and increase energy efficiency.',
-      featured: false
-    },
-    {
-      id: 3,
-      title: 'Neurological Development Studies',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80',
-      category: 'Neuroscience',
-      description: 'Investigating brain development and neural pathways to better understand cognitive processes.',
+      title: 'Pengurus Himadie FEB Unhas Resmi Dilantik',
+      image: 'https://asset-2.tstatic.net/makassar/foto/bank/images/dekan-fakultas-ekonomi-dan-bisnis-feb-unhas-prof-dr-abd-rahman-kadir.jpg',
+      category: 'Berita HimaDie Unhas',
+      description: 'Dekan Fakultas Ekonomi dan Bisnis (FEB) Unhas, Prof Dr Abd Rahman Kadir, SE, MSi melantik Pengurus Himpunan Mahasiswa..',
       featured: false
     },
   ];
