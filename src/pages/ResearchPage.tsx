@@ -15,23 +15,6 @@ const ResearchPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="container mx-auto px-6 pt-24 pb-6">
-        <Breadcrumb className="mb-8">
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/">
-                <Home className="h-4 w-4 mr-1" />
-                Home
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/research">Research</BreadcrumbLink>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">Our Research</h1>
-      </div>
       <Research />
       <Footer />
       <ScrollToTop />
