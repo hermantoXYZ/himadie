@@ -158,9 +158,9 @@ const Team = () => {
           ))}
         </div>
         
-        <div className="mt-12 text-center animate-on-scroll">
+        {/* <div className="mt-12 text-center animate-on-scroll">
           <Button size="lg">View All Team Members</Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
