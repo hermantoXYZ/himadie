@@ -54,23 +54,19 @@ const About = () => {
                 Excellence in Research and Education
               </h3>
               <p className="text-gray-700 mb-6">
-                Founded in 1985, our institution has been at the forefront of groundbreaking research 
-                and educational excellence for over three decades. We are dedicated to fostering 
-                innovation, collaboration, and the pursuit of knowledge that transforms lives.
+              Selain itu, pembentukan himpunan ini menjadi penting untuk meningkatkan kepedulian mahasiswa terhadap kemajuan program studi, dan membantu program studi dalam memperbaiki mutu akademik.
               </p>
               <p className="text-gray-700 mb-8">
-                Our interdisciplinary approach brings together experts from various fields to tackle 
-                complex challenges and develop innovative solutions with real-world impact.
+              Sehingga chek dan balances berjalan dengan baik,” kata Dekan Fakultas Ekonomi dan Bisnis Unhas, Prof. Dr. Abd. Rahman Kadir, SE, MSi dalam sambutannya usai melantik para pengurus Himadie FEB Unhas Periode 2021-2022.
               </p>
             </div>
             
             <div className="relative pl-6 animate-on-scroll">
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-600"></div>
               <blockquote className="italic text-gray-700">
-                "Our mission is to expand the boundaries of knowledge and empower the next generation 
-                of scholars to make meaningful contributions to society."
+                "HIMADIE FEB-Unhas ini sebagai wadah mahasiswa untuk berkumpul serta mengadakan kegiatan-kegiatan kajian akademik dan kegiatan lainnya, seperti: Bakti Sosial, Olahraga, keagamaan, dan lain sebagainya"
               </blockquote>
-              <p className="mt-4 font-medium">Dr. Emily Chen, Director</p>
+              <p className="mt-4 font-medium">Dr. Anas Iswanto Anwar</p>
             </div>
           </div>
           
