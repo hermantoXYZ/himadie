@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Twitter, FileText } from 'lucide-react';
@@ -36,44 +35,44 @@ const Team = () => {
 
   const team = [
     {
-      name: 'Dr. Emily Chen',
-      position: 'Director',
-      image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80',
+      name: 'Syamsu Alam',
+      position: 'Ketua HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Syamsu',
       bio: 'Ph.D. in Computer Science with over 15 years of experience leading research initiatives in artificial intelligence.',
       featured: true
     },
     {
       name: 'Prof. Michael Johnson',
       position: 'Lead Researcher',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Michael',
       bio: 'Expert in quantum computing with multiple publications in prestigious journals and international research awards.',
       featured: true
     },
     {
       name: 'Dr. Sarah Williams',
       position: 'Department Head',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Sarah',
       bio: 'Specializes in environmental science with a focus on sustainable technologies and climate change mitigation strategies.',
       featured: true
     },
     {
       name: 'Dr. David Kim',
       position: 'Senior Researcher',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=David',
       bio: 'Neuroscientist focused on brain development and neural pathways with expertise in advanced imaging techniques.',
       featured: false
     },
     {
       name: 'Dr. Lisa Martinez',
       position: 'Research Fellow',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Lisa',
       bio: 'Biomedical engineer working on cutting-edge medical imaging technologies and diagnostic tools.',
       featured: false
     },
     {
       name: 'Prof. Robert Taylor',
       position: 'Visiting Professor',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Robert',
       bio: 'Urban planning expert collaborating on sustainable city design projects and community development initiatives.',
       featured: false
     },
