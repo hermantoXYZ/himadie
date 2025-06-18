@@ -35,45 +35,52 @@ const Team = () => {
 
   const team = [
     {
-      name: 'Syamsu Alam',
-      position: 'Ketua HimaDie',
-      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Syamsu',
-      bio: 'Ph.D. in Computer Science with over 15 years of experience leading research initiatives in artificial intelligence.',
+      name: 'Wardihan Sabar',
+      position: 'Team HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Wardihan',
+      bio: 'Mahasiswa aktif yang berdedikasi dalam memimpin dan mengembangkan HimaDie untuk kemajuan bersama.',
       featured: true
     },
     {
-      name: 'Prof. Michael Johnson',
-      position: 'Lead Researcher',
-      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Michael',
-      bio: 'Expert in quantum computing with multiple publications in prestigious journals and international research awards.',
+      name: 'Andi Samsir',
+      position: 'Team HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Andi',
+      bio: 'Membantu mengkoordinasikan kegiatan dan program kerja HimaDie untuk mencapai visi dan misi bersama.',
       featured: true
     },
     {
-      name: 'Dr. Sarah Williams',
-      position: 'Department Head',
-      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Sarah',
-      bio: 'Specializes in environmental science with a focus on sustainable technologies and climate change mitigation strategies.',
+      name: 'Muh Jamil',
+      position: 'Team HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Jamil',
+      bio: 'Mengelola administrasi dan dokumentasi kegiatan HimaDie dengan penuh tanggung jawab.',
       featured: true
     },
     {
-      name: 'Dr. David Kim',
-      position: 'Senior Researcher',
-      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=David',
-      bio: 'Neuroscientist focused on brain development and neural pathways with expertise in advanced imaging techniques.',
+      name: 'Juardi',
+      position: 'Team HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Juardi',
+      bio: 'Mengelola keuangan dan anggaran HimaDie dengan transparan dan akuntabel.',
       featured: false
     },
     {
-      name: 'Dr. Lisa Martinez',
-      position: 'Research Fellow',
+      name: 'Raznilawati',
+      position: 'Team HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Raznilawati',
+      bio: 'Memimpin program-program akademik dan pengembangan keilmuan di HimaDie.',
+      featured: false
+    },
+    {
+      name: 'Lisa Nursita',
+      position: 'Team HimaDie',
       image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Lisa',
-      bio: 'Biomedical engineer working on cutting-edge medical imaging technologies and diagnostic tools.',
+      bio: 'Mengkoordinasikan kegiatan sosial dan pengabdian masyarakat HimaDie.',
       featured: false
     },
     {
-      name: 'Prof. Robert Taylor',
-      position: 'Visiting Professor',
-      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Robert',
-      bio: 'Urban planning expert collaborating on sustainable city design projects and community development initiatives.',
+      name: 'Amaliah Rezky',
+      position: 'Team HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Amaliah',
+      bio: 'Mengembangkan program kaderisasi dan pengembangan anggota HimaDie.',
       featured: false
     },
   ];
