@@ -35,11 +35,18 @@ const Team = () => {
 
   const team = [
     {
+      name: 'Syamsu Alam',
+      position: 'Ketua HimaDie',
+      image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Wardihan',
+      bio: 'Mahasiswa aktif yang berdedikasi dalam memimpin dan mengembangkan HimaDie untuk kemajuan bersama.',
+      featured: true
+    },
+    {
       name: 'Wardihan Sabar',
       position: 'Team HimaDie',
       image: 'https://api.dicebear.com/7.x/bottts/svg?seed=Wardihan',
       bio: 'Mahasiswa aktif yang berdedikasi dalam memimpin dan mengembangkan HimaDie untuk kemajuan bersama.',
-      featured: true
+      featured: false
     },
     {
       name: 'Andi Samsir',
