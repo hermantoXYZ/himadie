@@ -12,7 +12,7 @@ const researchProjects = [
   {
     id: 1,
     title: 'Pendaftaran Program Doktor (S3) UNHAS',
-    image: '/public/artikel3.jpeg',
+    image: '/artikel3.jpeg',
     category: 'Pengumuman Akademik',
     description: 'Universitas Hasanuddin membuka pendaftaran Program Doktor (S3) tahap 3 untuk Semester Awal Tahun Akademik 2025/2026. Pendaftaran dilakukan secara online melalui laman resmi RegPMB Unhas.',
     featured: true,
