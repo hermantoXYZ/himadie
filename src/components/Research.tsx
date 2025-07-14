@@ -39,10 +39,10 @@ const Research = () => {
   const projects = [
     {
       id: 1,
-      title: 'Mubes HimaDie Unhas',
-      image: '/artikel1.jpeg',
+      title: 'Pendaftaran Program Doktor (S3) Tahap 3 Periode Semester Awal 2025/2026',
+      image: '/artikel3.jpeg',
       category: 'Berita HimaDie Unhas',
-      description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes)',
+      description: 'Program Studi yang dibuka dapat dilihat pada laman https://regpmb.unhas.ac.id pada menu Program Studi..',
       featured: true
     },
     {
@@ -53,6 +53,15 @@ const Research = () => {
       description: 'Dekan Fakultas Ekonomi dan Bisnis (FEB) Unhas, Prof Dr Abd Rahman Kadir, SE, MSi melantik Pengurus Himpunan Mahasiswa..',
       featured: false
     },
+    {
+      id: 3,
+      title: 'Mubes HimaDie Unhas',
+      image: '/artikel1.jpeg',
+      category: 'Berita HimaDie Unhas',
+      description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes)',
+      featured: true
+    },
+    
   ];
 
   return (
