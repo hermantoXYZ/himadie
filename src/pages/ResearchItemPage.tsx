@@ -12,7 +12,7 @@ const researchProjects = [
   {
     id: 1,
     title: 'Pendaftaran Program Doktor (S3) UNHAS',
-    image: '/artikel3.jpeg',
+    image: 'https://www.himadie-unhas.com/artikel3.jpeg',
     category: 'Pengumuman Akademik',
     description: 'Universitas Hasanuddin membuka pendaftaran Program Doktor (S3) tahap 3 untuk Semester Awal Tahun Akademik 2025/2026. Pendaftaran dilakukan secara online melalui laman resmi RegPMB Unhas.',
     featured: true,
@@ -77,7 +77,7 @@ const researchProjects = [
     {
       id: 3,
       title: 'Mubes HimaDie Unhas',
-      image: '/public/artikel1.jpeg',
+      image: 'https://www.himadie-unhas.com/artikel1.jpeg',
       category: 'Berita HimaDie',
       description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes). .',
       featured: true,
