@@ -104,9 +104,68 @@ const ResearchItemPage = () => {
     
     if (foundProject) {
       setProject(foundProject);
-      document.title = `${foundProject.title} | Research Institute`;
+      // Update document title and meta tags
+      document.title = `${foundProject.title} | HimaDie Unhas`;
+      
+      // Update meta tags
+      updateMetaTags({
+        title: foundProject.title,
+        description: foundProject.description,
+        image: foundProject.image,
+        author: foundProject.author,
+        date: foundProject.date,
+        type: 'article'
+      });
     }
   }, [id]);
+
+  // Add this helper function at the top of your component
+  const updateMetaTags = ({
+    title,
+    description,
+    image,
+    author,
+    date,
+    type
+  }: {
+    title: string;
+    description: string;
+    image: string;
+    author: string;
+    date: string;
+    type: string;
+  }) => {
+    // Basic meta tags
+    document.querySelector('meta[name="description"]')?.setAttribute('content', description);
+    document.querySelector('meta[name="author"]')?.setAttribute('content', author);
+
+    // Open Graph meta tags
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
+    document.querySelector('meta[property="og:type"]')?.setAttribute('content', type);
+    document.querySelector('meta[property="og:image"]')?.setAttribute('content', image);
+
+    // Twitter meta tags
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', title);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', description);
+    document.querySelector('meta[name="twitter:image"]')?.setAttribute('content', image);
+    
+    // Article specific meta tags
+    const articleMeta = [
+      { property: 'article:published_time', content: date },
+      { property: 'article:author', content: author },
+    ];
+
+    articleMeta.forEach(meta => {
+      let element = document.querySelector(`meta[property="${meta.property}"]`);
+      if (!element) {
+        element = document.createElement('meta');
+        element.setAttribute('property', meta.property);
+        document.head.appendChild(element);
+      }
+      element.setAttribute('content', meta.content);
+    });
+  };
 
   if (!project) {
     return (
