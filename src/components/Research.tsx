@@ -45,27 +45,28 @@ const Research = () => {
       description: 'Program Studi yang dibuka dapat dilihat pada laman https://regpmb.unhas.ac.id pada menu Program Studi..',
       featured: true
     },
+    
     {
       id: 2,
-      title: 'Pengurus Himadie FEB Unhas Resmi Dilantik',
-      image: 'https://asset-2.tstatic.net/makassar/foto/bank/images/dekan-fakultas-ekonomi-dan-bisnis-feb-unhas-prof-dr-abd-rahman-kadir.jpg',
-      category: 'Berita HimaDie Unhas',
-      description: 'Dekan Fakultas Ekonomi dan Bisnis (FEB) Unhas, Prof Dr Abd Rahman Kadir, SE, MSi melantik Pengurus Himpunan Mahasiswa..',
-      featured: false
-    },
-    {
-      id: 3,
       title: 'Mubes HimaDie Unhas',
       image: '/artikel1.jpeg',
       category: 'Berita HimaDie Unhas',
       description: 'Himpunan Mahasiswa Doktor Ilmu Ekonomi, Fakultas Ekonomi dan Bisnis, Universitas Hasanuddin,  (HIMADIE FEB UNHAS) periode 2024-2025 menggelar Musyawarah Besar (Mubes)',
       featured: true
     },
+    {
+      id: 3,
+      title: 'Pengurus Himadie FEB Unhas Resmi Dilantik',
+      image: 'https://asset-2.tstatic.net/makassar/foto/bank/images/dekan-fakultas-ekonomi-dan-bisnis-feb-unhas-prof-dr-abd-rahman-kadir.jpg',
+      category: 'Berita HimaDie Unhas',
+      description: 'Dekan Fakultas Ekonomi dan Bisnis (FEB) Unhas, Prof Dr Abd Rahman Kadir, SE, MSi melantik Pengurus Himpunan Mahasiswa..',
+      featured: false
+    },
     
   ];
 
   return (
-    <section id="research" ref={sectionRef} className="section-padding bg-blue-50/70">
+    <section id="news" ref={sectionRef} className="section-padding bg-blue-50/70">
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
@@ -112,7 +113,7 @@ const Research = () => {
                   className="flex items-center text-blue-600 hover:text-blue-700 p-0"
                   asChild
                 >
-                  <Link to={`/research/${project.id}`}>
+                  <Link to={`/news/${project.id}`}>
                     Read More <ExternalLink className="ml-1  text-left h-4 w-4" />
                   </Link>
                 </Button>

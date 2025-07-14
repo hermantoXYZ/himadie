@@ -116,7 +116,7 @@ const ResearchItemPage = () => {
           <div className="text-center">
             <h1 className="text-2xl font-semibold mb-4">Research project not found</h1>
             <Button asChild>
-              <Link to="/research">Return to Research</Link>
+              <Link to="/news">Return to Research</Link>
             </Button>
           </div>
         </main>
@@ -163,7 +163,7 @@ const ResearchItemPage = () => {
             {/* Main content */}
             <div className="w-full lg:w-2/3 lg:pr-12">
               <Button variant="ghost" asChild className="mb-8 text-blue-600 hover:text-blue-700">
-                <Link to="/research" className="flex items-center">
+                <Link to="/news" className="flex items-center">
                   <ArrowLeft className="mr-2 h-4 w-4" />
                   Back to All Research Projects
                 </Link>
